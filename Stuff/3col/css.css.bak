@@ -1,0 +1,101 @@
+ul,li{margin:0;padding:0;list-style:none;}
+html { font-size: 100%; overflow-y: scroll; -webkit-overflow-scrolling: touch; -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body {font-size: 14px;font-family: Georgia, Arial, sans-serif;
+line-height: 1.231;padding:0;margin:0;background-image:url(images/ca.png)}
+h1,h2,h3,h4,h5,h6{font-weight:bold;line-height:120%;}
+#wrapper{width:950px;margin:0 auto;}
+header{padding:10px;background-color:#008bff;color:black;height:100px;
+ background-image: -moz-linear-gradient(#04acec,  #0186ba);
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#008bff), to(#0bf));
+ background-image: -webkit-linear-gradient(#008bff, #0bf);
+ background-image: -o-linear-gradient(#008bff, #0bf);
+ background-image: -ms-linear-gradient(#008bff, #0bf);
+ background-image: linear-gradient(#008bff, #0bf);}
+
+#navmenu {height:40px;padding:0px;list-style:none;
+font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; letter-spacing:-0.5px; font-size:13px;text-shadow: 0 -1px 3px #202020;
+background-color:#0bf;
+background-image: -moz-linear-gradient(#0bf,  #3caae1);
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#0bf), to(#3caae1));
+ background-image: -webkit-linear-gradient(#0bf, #3caae1);
+ background-image: -o-linear-gradient(#0bf, #3caae1);
+ background-image: -ms-linear-gradient(#0bf, #3caae1);
+ background-image: linear-gradient(#0bf, #3caae1);
+ -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    
+    -moz-box-shadow: 0px 3px 3px #8b8b8b;
+    -webkit-box-shadow: 0px 3px 3px #8b8b8b;
+    box-shadow: 0 3px 4px #8b8b8b;}
+#navmenu a{ color:#19192d; text-decoration:none; text-align:center;  line-height:40px; outline:none;font-size:15px;}
+#navmenu li{display:block; float:left; border-right:1px solid #5d5d5d; border-left:1px solid #929292; width:105px; height:40px; border-bottom:1px solid #575757; border-top:1px solid #797979;text-align: center;
+
+background-image: -moz-linear-gradient(#0a8,  #00be38);
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#0a8), to(#00be38));
+ background-image: -webkit-linear-gradient(#0a8, #00be38);
+ background-image: -o-linear-gradient(#0a8, #00be38);
+ background-image: -ms-linear-gradient(#0a8, #00be38);
+ background-image: linear-gradient(#0a8, #00be38);
+ background-color:#0a8;
+ -moz-box-shadow: inset 0 0 3px 2px #0bffaa;
+    -webkit-box-shadow: inset 0 0 3px 2px #0bffaa;
+    box-shadow: inset 0 0 3px 2px #0bffaa;}
+#navmenu li:last-child {
+    -moz-border-radius:0 4px 4px 0;
+    -webkit-border-radius:0 4px 4px 0;
+    border-radius:0 4px 4px 0;}
+
+#navmenu ul a {
+ display: block;
+ white-space: nowrap;
+ float: none;
+ text-transform: none;
+}
+#navmenu ul a:hover {
+ background-color: #0186ba;
+ background-image: -moz-linear-gradient(#04acec,  #0186ba);
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#0186ba));
+ background-image: -webkit-linear-gradient(#04acec, #0186ba);
+ background-image: -o-linear-gradient(#04acec, #0186ba);
+ background-image: -ms-linear-gradient(#04acec, #0186ba);
+ background-image: linear-gradient(#04acec, #0186ba);
+  -moz-box-shadow: inset 0 0 3px 2px #0bffaa;
+    -webkit-box-shadow: inset 0 0 3px 2px #0bffaa;
+    box-shadow: inset 0 0 3px 2px #0bffaa;
+}
+
+#navmenu ul lli:first-child > a:after {
+ content: '';
+ position: absolute;
+ left: 40px;
+ top: -6px;
+ border-left: 6px solid transparent;
+ border-right: 6px solid transparent;
+ border-bottom: 6px solid #444;}
+
+
+#content {width:950px;height:500px;margin:10px 0;}
+#right {float:right;width:600px;background-color:#fff;height:480px;padding:10px;
+border-radius:10px;
+-moz-box-shadow: 0 0 5px 4px rgba(0,139,255,0.8); /* Для Firefox */
+-webkit-box-shadow: 0 0px 5px 4px rgba(0,139,255,0.8); /* Для Safari и Chrome */
+        box-shadow: 0 0 5px 4px rgba(0,139,255,0.8); /* Параметры тени */}
+#left {margin-left:5px;padding:10px;float:left;width:290px;background-color:#fff5ee;height:480px;
+border-radius:10px;
+-moz-box-shadow: 0 0 5px 4px rgba(0,139,255,0.8); /* Для Firefox */
+-webkit-box-shadow: 0 0px 5px 4px rgba(0,139,255,0.8); /* Для Safari и Chrome */
+        box-shadow: 0 0 5px 4px rgba(0,139,255,0.8); /* Параметры тени */}
+
+footer {clear:both;width:930px;padding:10px;
+background-color:#0bf;
+border-radius:5px;
+-moz-box-shadow: 2px 3px 5px rgba(0,139,255,0.8); /* Для Firefox */
+-webkit-box-shadow: 2px 3px 5px rgba(0,139,255,0.8); /* Для Safari и Chrome */
+        box-shadow: 2px 3px 5px rgba(0,139,255,0.8); /* Параметры тени */}
+	.twitter{display:block;margin:0;padding:0;
+	background:url(images/twitter2.png);height:20px;width:20px;border-radius:5px;float:right;}
+#top {border-radius:5px;
+-moz-box-shadow: 2px 3px 5px rgba(0,139,255,0.8); /* Для Firefox */
+-webkit-box-shadow: 2px 3px 5px rgba(0,139,255,0.8); /* Для Safari и Chrome */
+        box-shadow: 2px 3px 5px rgba(0,139,255,0.8); /* Параметры тени */}

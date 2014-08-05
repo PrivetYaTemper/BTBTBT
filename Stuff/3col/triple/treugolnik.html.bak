@@ -1,0 +1,35 @@
+<doctype! html>
+<style type="text/css">
+.speech-bubble {
+    position: absolute;
+    background-color: #292929;
+    width: 200px;
+    height: 150px;
+    line-height: 150px; /* vertically center */
+    color: white;
+    text-align: center;margin-top:-30px;
+}
+.speech-bubble:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top:100%;left:30%;
+  border: 25px solid;margin-top:px;
+  border-color: blue transparent transparent transparent;
+  
+}
+.arrow {
+  width: 0; height: 0;
+  border-top: 50px solid transparent;
+  border-right: 100px solid green;
+  border-bottom: 150px solid transparent;z-index:0;visibility:visible;
+  position:absolute;
+  }
+
+</style>
+<body>
+<div class="arrow"></div>
+<div class="speech-bubble"></div>
+
+</body>
